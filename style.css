@@ -30,10 +30,6 @@ nav {
     height: 100px;
     background-color: #FFF;
   }
-  
-ul {
-
-  }
 
 ul li {
     list-style: none;
@@ -44,11 +40,14 @@ ul li {
 ul li a {
     display: block;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Arial;
     color:rgb(26, 164, 218);
     padding: 0 30px;
-    
+  }
+
+ul li a:hover {
+    color: red;
   }
 
 p {
