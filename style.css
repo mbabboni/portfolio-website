@@ -31,6 +31,10 @@ nav {
     background-color: #FFF;
   }
 
+ul {
+    
+}
+
 ul li {
     list-style: none;
     display: inline-block;
