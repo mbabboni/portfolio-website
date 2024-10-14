@@ -2,6 +2,12 @@ body {
     /* Old browsers */
     background: #3360b3;
   }
+
+.bodyWrapper{
+  margin: 0 auto;
+  width: 1100px;
+  background-color: #5782d1;
+}
   
 h1 {
     color: #FFF;
@@ -21,7 +27,7 @@ nav {
   }
 
 ul {
-    
+    margin-left: 60px;
 }
 
 ul li {
