@@ -37,6 +37,7 @@ body:after{
 
 .header-main-logo img{
   height: 40px;
+  margin-top: 10px;
   align-self: center;
 }
 
