@@ -109,16 +109,16 @@ body:after{
 }
 
 .img-info{
-  margin-top: 30px;
   width: 100%;
 }
 
 .img-info h1{
+  margin-top: 70px;
   padding: 30px 30px 20px;
   font-family: Arial;
   font-size: 50px;
   color: white;
-  line-height: 1px;
+  line-height: 44px;
 }
 
 .img-info p{
@@ -131,7 +131,6 @@ body:after{
 
 .img-pumpkin{
   width: 100%;
-  margin-top: 70px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -171,6 +170,7 @@ body:after{
   }
 
   .img-info{
+    margin-top:auto;
     width: 50%;
     float: right;
   }
@@ -184,6 +184,7 @@ body:after{
   }
 
   .img-pumpkin{
+    margin-top: 70px;
     padding-top: 0px;
     width: 50%;
     float: left;
