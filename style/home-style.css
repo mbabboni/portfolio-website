@@ -13,7 +13,7 @@ body:after{
   height: 0;
   overflow: hidden;
   z-index: -1;
-  content: url(../img/insta-logo.webp) url(../img/linked-logo.png);
+  content: url(../img/insta-logo.webp) url(../img/linked-logo.png) url(../img/name-blue.png);
 }
 
 .header-main{
@@ -28,17 +28,24 @@ body:after{
   z-index: 1000;
   }
 
-.header-main-logo{
+.header-main-menu{
   width: fit-content;
   height: 100%;
   padding-left: 60px;
   display: flex;
 }
 
-.header-main-logo img{
-  height: 40px;
+.header-main-logo{
+  width: 200px;
+  height: 60px;
   margin-top: 10px;
-  align-self: center;
+  background-image: url(../img/name.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header-main-logo:hover{
+  background-image: url(../img/name-blue.png)
 }
 
 .header-main-nav{
