@@ -1,6 +1,16 @@
+@font-face {
+  font-family: Pixel;
+  src: url(../fonts/PixelifySans-VariableFont_wght.ttf);
+}
+
 body {
     background: #5575bc;
   }
+
+.projects{
+  font-family: Pixel;
+  font-size: 25px;
+}
 
 .wrapper{
   width: 100%;
@@ -32,10 +42,6 @@ body {
 
 .img-pumpkin{
   width: 100%;
-}
-
-.projects{
-  font-family: pixel
 }
 
 @media only screen and (min-width: 768px) {
