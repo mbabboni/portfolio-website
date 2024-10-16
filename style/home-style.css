@@ -31,14 +31,14 @@ body:after{
 .header-main-menu{
   width: fit-content;
   height: 100%;
-  padding-left: 60px;
+  padding-left: 10px;
   display: flex;
 }
 
 .header-main-logo{
-  width: 200px;
+  width: 150px;
   height: 60px;
-  margin-top: 10px;
+  margin-top: 15px;
   background-image: url(../img/name.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -72,39 +72,6 @@ body:after{
 
 .header-main-nav ul li a:hover{
   color: #38ff42;
-}
-
-.header-main-sm{
-  width: fit-content;
-  height: 100%;
-  padding-right: 60px;
-  display: flex;
-  align-items: center;
-  column-gap: 20px;
-}
-
-.header-main-sm-li{
-  width: 20px;
-  height: 20px;
-  background-image: url(../img/linked-black.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.header-main-sm-li:hover{
-  background-image: url(../img/linked-logo.png);
-}
-
-.header-main-sm-in{
-  width: 20px;
-  height: 20px;
-  background-image: url(../img/insta-black.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.header-main-sm-in:hover{
-  background-image: url(../img/insta-logo.webp);
 }
 
 .projects{
@@ -167,22 +134,112 @@ body:after{
 }
 
 @media only screen and (min-width: 1000px) {
-  .img-arcade{
-    display: block;
+  .header-main{
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding-bottom: 10px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    }
+  
+  .header-main-menu{
+    width: fit-content;
+    height: 100%;
+    padding-left: 40px;
+    display: flex;
   }
-
+  
+  .header-main-logo{
+    width: 200px;
+    height: 60px;
+    margin-top: 10px;
+    background-image: url(../img/name.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  .header-main-logo:hover{
+    background-image: url(../img/name-blue.png)
+  }
+  
+  .header-main-nav{
+    width: fit-content;
+    height: 100%;
+  }
+  
+  .header-main-nav ul{
+    list-style: none;
+  }
+  
+  .header-main-nav ul li{
+    display: inline;
+    float: left;
+  }
+  
+  .header-main-nav ul li a{
+    padding: 0 10px 0 10px;
+    font-family: Pixel;
+    line-height: 30px;
+    text-decoration: none;
+    color: #1e1e1e;
+  }
+  
+  .header-main-nav ul li a:hover{
+    color: #38ff42;
+  }
+  
+  .header-main-sm{
+    width: fit-content;
+    height: 100%;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+  
+  .header-main-sm-li{
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/linked-black.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .header-main-sm-li:hover{
+    background-image: url(../img/linked-logo.png);
+  }
+  
+  .header-main-sm-in{
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/insta-black.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .header-main-sm-in:hover{
+    background-image: url(../img/insta-logo.webp);
+  }
+  
+  .projects{
+    font-family: Pixel;
+    font-size: 25px;
+  }
+  
   .wrapper{
     width: 1000px;
   }
-
+  
   .img-info{
     margin-top:auto;
     width: 50%;
     float: right;
   }
-
+  
   .img-info h1{
     padding: 20px 0px 0px 30px;
   }
@@ -190,7 +247,7 @@ body:after{
   .img-info p{
     padding: 20px 0px 0px 30px;
   }
-
+  
   .img-pumpkin{
     margin-top: 70px;
     padding-top: 0px;
