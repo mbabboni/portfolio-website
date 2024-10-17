@@ -81,6 +81,7 @@ body:after{
 
 .wrapper{
   width: 100%;
+  background-color:#1e1e1e;
 }
 
 .img-info{
@@ -236,12 +237,11 @@ body:after{
   
   .img-info{
     margin-top:auto;
-    width: 50%;
-    float: right;
   }
   
   .img-info h1{
-    padding: 20px 0px 0px 30px;
+    padding: 20px 20px 20px 30px;
+    background-color:#1e1e1e;
   }
   
   .img-info p{
