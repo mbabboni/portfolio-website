@@ -81,7 +81,6 @@ body:after{
 
 .wrapper{
   width: 100%;
-  background-color:#1e1e1e;
 }
 
 .img-info{
@@ -228,11 +227,11 @@ body:after{
   
   .projects{
     font-family: Pixel;
-    font-size: 25px;
+    font-size: 20px;
   }
   
   .wrapper{
-    width: 1000px;
+    width: 875px;
   }
   
   .img-info{
@@ -245,7 +244,9 @@ body:after{
   }
   
   .img-info p{
-    padding: 20px 0px 0px 30px;
+    padding: 10px 0px 10px 30px;
+    background-color:white;
+    color:#1e1e1e;
   }
   
   .img-pumpkin{
