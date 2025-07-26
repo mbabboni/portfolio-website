@@ -70,8 +70,8 @@ body:after{
   color: #1e1e1e;
 }
 
-.header-main-nav ul li a:hover{
-  color: #38ff42;
+.header-main-nav ul li a.resume:hover{
+  color: #8d47ff;
 }
 
 .resume{

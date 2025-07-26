@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #1e1e1e;
+    background: #1576e6;
   }
 
 body:after{
@@ -72,6 +72,22 @@ body:after{
 
 .header-main-nav ul li a:hover{
   color: #38ff42;
+}
+
+.header-main-nav ul li a.resume:hover{
+  color: #8d47ff;
+}
+
+.header-main-nav ul li a.projects:hover{
+  color: #38ff42;
+}
+
+.header-main-nav ul li a.music:hover{
+  color: #22a6c3;
+}
+
+.header-main-nav ul li a.about-me:hover{
+  color: #c83838;
 }
 
 .projects{
